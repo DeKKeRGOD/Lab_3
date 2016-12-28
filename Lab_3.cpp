@@ -14,7 +14,7 @@ printf("%f ", aMas[i]);
 }
 for (int i = 0; i<n / 2; i++)
 {
-double buf = aMas[i];
+double a = aMas[i];
 aMas[i] = aMas[n - 1 - i];
 aMas[n - 1 - i] = buf;
 }
